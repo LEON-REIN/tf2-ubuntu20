@@ -16,15 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a8d64-daa3-4fa0-9ca8-a43f08718c04" name="Default Changelist" comment="Complete cifar2.py. And I find something interesting.">
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/cifar2.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/cifar2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/datasets/titanic/gender_submission-0.76555.csv" beforeDir="false" afterPath="$PROJECT_DIR$/keras/datasets/titanic/gender_submission-0.76555.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/datasets/titanic/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/keras/datasets/titanic/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/datasets/titanic/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/keras/datasets/titanic/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/mnist_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/mnist_cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/titanic.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/titanic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/titanic_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/titanic_2.py" afterDir="false" />
+    <list default="true" id="128a8d64-daa3-4fa0-9ca8-a43f08718c04" name="Default Changelist" comment="Initial Commit.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -238,7 +232,7 @@
       <workItem from="1590312155471" duration="175000" />
       <workItem from="1590312341491" duration="33000" />
       <workItem from="1590312384227" duration="1702000" />
-      <workItem from="1590314815789" duration="392000" />
+      <workItem from="1590314815789" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="nothing">
       <created>1590081408628</created>
@@ -275,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590247656396</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial Commit.">
+      <created>1590315498874</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590315498874</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +348,8 @@
     <MESSAGE value="update readme.md" />
     <MESSAGE value="update something" />
     <MESSAGE value="Complete cifar2.py. And I find something interesting." />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete cifar2.py. And I find something interesting." />
+    <MESSAGE value="Initial Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="183" key="#Inspections" timestamp="1589608757903">
@@ -367,10 +369,14 @@
     </state>
     <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590214090921" />
     <state x="663" y="394" width="424" height="485" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1590311354833" />
-    <state x="820" y="448" width="280" height="211" key="Github.ShareDialog" timestamp="1590312325348">
+    <state x="820" y="448" width="274" height="212" key="Github.ShareDialog" timestamp="1590315228903">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="820" y="448" width="280" height="211" key="Github.ShareDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1590312325348" />
+    <state x="820" y="448" width="274" height="212" key="Github.ShareDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1590315228903" />
+    <state x="694" y="175" width="522" height="757" key="Github.UntrackedFilesDialog" timestamp="1590315260360">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="694" y="175" width="522" height="757" key="Github.UntrackedFilesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1590315260360" />
     <state x="755" y="47" key="RollbackChangesDialog" timestamp="1590079999706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -413,6 +419,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="242" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590168800317" />
+    <state x="701" y="435" width="508" height="238" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1590315812573">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="701" y="435" width="508" height="238" key="git4idea.remote.GitConfigureRemotesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1590315812573" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1589643248973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
