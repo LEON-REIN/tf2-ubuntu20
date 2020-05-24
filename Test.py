@@ -1,4 +1,3 @@
-#!/home/leonrein/anaconda3/envs/tf2/bin/python3.7
 # @.@ coding : utf-8 ^_^
 # @Author    : Leon Rein
 # @Time      : 2020/5/24 ~ 17:39

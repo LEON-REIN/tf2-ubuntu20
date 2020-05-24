@@ -1,4 +1,3 @@
-#!/home/leonrein/anaconda3/envs/tf2/bin/python3.7
 # @.@ coding : utf-8 ^_^
 # @Author    : Leon Rein
 # @Time      : 2020/5/24 ~ 17:39
@@ -40,13 +39,13 @@ def load_image(img_path, size=(32, 32)):
 # 使用并行化预处理 num_parallel_calls 和预存数据 prefetch 来提升性能
 # map: to accelerate; shuffle: buffer_size need to be large enough; batch: to combine some data into a single batch;
 # prefetch: to improves latency and throughput, using additional memory
-ds_train = tf.data.Dataset.list_files(r"datasets\cifar2_datasets\train\*\*.jpg") \
+ds_train = tf.data.Dataset.list_files("./datasets/cifar2_datasets/train/*/*.jpg") \
     .map(load_image, num_parallel_calls=tf.data.experimental.AUTOTUNE) \
     .shuffle(buffer_size=2000) \
     .batch(BATCH_SIZE) \
     .prefetch(tf.data.experimental.AUTOTUNE)
 
-ds_test = tf.data.Dataset.list_files(r"datasets\cifar2_datasets\test\*\*.jpg") \
+ds_test = tf.data.Dataset.list_files("./datasets/cifar2_datasets/test/*/*.jpg") \
     .map(load_image, num_parallel_calls=tf.data.experimental.AUTOTUNE) \
     .batch(BATCH_SIZE) \
     .prefetch(tf.data.experimental.AUTOTUNE)
@@ -114,7 +113,7 @@ model.compile(
 '''
 
 stamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")  # Time stamp
-logdir = os.path.join('datasets', 'cifar2_autograph', stamp)  # path to log
+logdir = os.path.join('datasets', 'cifar2_datasets', 'cifar2_autograph', stamp)  # path to log
 tensorboard_callback = tf.keras.callbacks.TensorBoard(logdir, histogram_freq=1)
 
 history_fit = model.fit(ds_train,
@@ -128,7 +127,7 @@ history_fit = model.fit(ds_train,
 5. Evaluate the Model
 '''
 
-# Execute "!tensorboard --logdir datasets\cifar2_autograph" in Ipython
+# Execute "!tensorboard --logdir ./datasets/cifar2_datasets/cifar2_autograph" in Ipython
 # And open your browser to use Tensorboard
 dfhistory = pd.DataFrame(history_fit.history)
 dfhistory.index = range(1, len(dfhistory) + 1)
@@ -169,12 +168,12 @@ answer = model.predict(ds_test)
 '''
 
 # # # Save model weights only
-# # model.save_weights(r'datasets\cifar2_saved\tf_model_weights.ckpt', save_format="tf")
+# # model.save_weights('./datasets/cifar2_datasets/cifar2_saved/tf_model_weights.ckpt', save_format="tf")
 #
 # # Save the whole model
-# model.save(r'datasets\cifar2_saved\tf_model_savedmodel', save_format="tf")
+# model.save('./datasets/cifar2_datasets/cifar2_saved/tf_model_savedmodel', save_format="tf")
 
 # # Restore the model
-# model_loaded = tf.keras.models.load_model(r'datasets\cifar2_saved\tf_model_savedmodel')
+# model_loaded = tf.keras.models.load_model('./datasets/cifar2_datasets/cifar2_saved/tf_model_savedmodel')
 # evaluation = model.evaluate(ds_test, workers=4)
 # print("Loss: {loss}  Accuracy: {acc}".format(loss=evaluation[0], acc=evaluation[1]))

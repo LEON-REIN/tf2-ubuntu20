@@ -17,8 +17,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a8d64-daa3-4fa0-9ca8-a43f08718c04" name="Default Changelist" comment="Initial Commit.">
+      <change afterPath="$PROJECT_DIR$/keras/datasets/cifar2_datasets/cifar2_autograph/20200524-185405/train/events.out.tfevents.1590317645.lr-ubuntu.33136.364.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras/datasets/cifar2_datasets/cifar2_autograph/20200524-185405/train/events.out.tfevents.1590317646.lr-ubuntu.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras/datasets/cifar2_datasets/cifar2_autograph/20200524-185405/train/plugins/profile/2020-05-24_18-54-06/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras/datasets/cifar2_datasets/cifar2_autograph/20200524-185405/validation/events.out.tfevents.1590317647.lr-ubuntu.33136.2008.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras/datasets/cifar2_datasets/cifar2_autograph/20200524-185456/train/events.out.tfevents.1590317696.lr-ubuntu.33723.364.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras/datasets/cifar2_datasets/cifar2_autograph/20200524-185456/train/events.out.tfevents.1590317697.lr-ubuntu.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras/datasets/cifar2_datasets/cifar2_autograph/20200524-185456/train/plugins/profile/2020-05-24_18-54-57/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras/datasets/cifar2_datasets/cifar2_autograph/20200524-185456/validation/events.out.tfevents.1590317698.lr-ubuntu.33723.2008.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/cifar2.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/cifar2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/datasets/titanic/tf_model_savedmodel/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/keras/datasets/titanic/tf_model_savedmodel/saved_model.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/datasets/titanic/tf_model_savedmodel/variables/variables.data-00000-of-00002" beforeDir="false" afterPath="$PROJECT_DIR$/keras/datasets/titanic/tf_model_savedmodel/variables/variables.data-00000-of-00002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/datasets/titanic/tf_model_savedmodel/variables/variables.data-00001-of-00002" beforeDir="false" afterPath="$PROJECT_DIR$/keras/datasets/titanic/tf_model_savedmodel/variables/variables.data-00001-of-00002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/datasets/titanic/tf_model_savedmodel/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/keras/datasets/titanic/tf_model_savedmodel/variables/variables.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/mnist_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/mnist_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/titanic.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/titanic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/titanic_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/titanic_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +85,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -84,7 +100,7 @@
       <recent name="C:\myprojects\PyProjects\tf2\keras" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test">
+  <component name="RunManager" selected="Python.cifar2">
     <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tf2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,9 +146,6 @@
       <module name="tf2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -152,9 +165,6 @@
       <module name="tf2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -174,9 +184,6 @@
       <module name="tf2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -192,18 +199,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="titanic_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tf2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras/titanic_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.cifar2" />
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.titanic" />
       <item itemvalue="Python.mnist_cnn" />
+      <item itemvalue="Python.titanic_2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.mnist_cnn" />
         <item itemvalue="Python.cifar2" />
+        <item itemvalue="Python.titanic_2" />
         <item itemvalue="Python.titanic" />
+        <item itemvalue="Python.mnist_cnn" />
+        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +260,7 @@
       <workItem from="1590312155471" duration="175000" />
       <workItem from="1590312341491" duration="33000" />
       <workItem from="1590312384227" duration="1702000" />
-      <workItem from="1590314815789" duration="1137000" />
+      <workItem from="1590314815789" duration="4228000" />
     </task>
     <task id="LOCAL-00001" summary="nothing">
       <created>1590081408628</created>
@@ -276,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590315498874</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial Commit.">
+      <created>1590315958497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590315958498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,19 +416,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="755" y="47" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590079999706" />
-    <state x="313" y="267" width="1256" height="731" key="SettingsEditor" timestamp="1590314882437">
+    <state x="313" y="267" width="1256" height="731" key="SettingsEditor" timestamp="1590319044148">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590149596285" />
-    <state x="313" y="267" width="1256" height="731" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1590314882437" />
+    <state x="313" y="267" width="1256" height="731" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1590319044148" />
     <state x="791" y="410" key="VCS.ChangelistChooser" timestamp="1590156080837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="791" y="410" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590156080837" />
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1590247870317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="452" y="212" width="800" height="537" key="Vcs.Push.Dialog.v2" timestamp="1590315970808">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590247870317" />
+    <state x="452" y="212" width="800" height="537" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1590315970808" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1590233836570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

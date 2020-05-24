@@ -1,4 +1,3 @@
-#!/home/leonrein/anaconda3/envs/tf2/bin/python3.7
 # @.@ coding : utf-8 ^_^
 # @Author    : Leon Rein
 # @Time      : 2020/5/24 ~ 17:39
@@ -20,10 +19,10 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = '2'  # Warnings or Errors ONLY  
 1. Load datasets-sets
 '''
 
-dftrain_raw = pd.read_csv(r'datasets/titanic\train.csv')
-dftest_raw = pd.read_csv(r'datasets/titanic\test.csv')
-test_answer_raw = pd.read_csv(r'datasets/titanic\gender_submission-0.76555.csv')
-# test_answer_raw = pd.read_csv(r'titanic\answer-0.77033.csv')
+dftrain_raw = pd.read_csv('./datasets/titanic/train.csv')
+dftest_raw = pd.read_csv('./datasets/titanic/test.csv')
+test_answer_raw = pd.read_csv('./datasets/titanic/gender_submission-0.76555.csv')
+# test_answer_raw = pd.read_csv('./datasets/titanic/answer-0.77033.csv')
 
 # Data Visualization
 #     -- Relationship between survival probability and age
@@ -147,7 +146,7 @@ print("Loss: {loss}  Accuracy: {acc}".format(loss=evaluation[0], acc=evaluation[
 # print(model.predict_classes(to_test[0:10]))  # the class they belongs to
 answer = model.predict_classes(to_test)
 test_answer_raw['Survived'] = answer
-test_answer_raw.to_csv(r".\ans.csv", index=False)
+# test_answer_raw.to_csv(r"./ans.csv", index=False)
 
 # '''
 # 7. Save the Model
@@ -156,11 +155,11 @@ test_answer_raw.to_csv(r".\ans.csv", index=False)
 # '''1. Saves in a Keras-way'''
 # # 1.1
 # # Saved as model.h5
-# model.save(r'titanic\keras_model.h5')  # the older Keras H5 format
+# model.save('./datasets/titanic/keras_model.h5')  # the older Keras H5 format
 # del model  # release the current model just for a test
 #
 # # Restore model.h5
-# model = models.load_model(r'titanic\keras_model.h5')
+# model = models.load_model('./datasets/titanic/keras_model.h5')
 # evaluation = model.evaluate(x=to_test, y=ans_test)
 # print("Loss1: {loss}  Accuracy1: {acc}".format(loss=evaluation[0], acc=evaluation[1]))
 #
@@ -169,7 +168,7 @@ test_answer_raw.to_csv(r".\ans.csv", index=False)
 # json_str = model.to_json()
 #
 # # Save model weights
-# model.save_weights(r'titanic\keras_model_weight.h5')
+# model.save_weights('./datasets/titanic/keras_model_weight.h5')
 #
 # # Restore model architecture
 # model_json = models.model_from_json(json_str)
@@ -179,20 +178,20 @@ test_answer_raw.to_csv(r".\ans.csv", index=False)
 #                    )
 #
 # # Restore model weights
-# model_json.load_weights(r'titanic\keras_model_weight.h5')
+# model_json.load_weights('./datasets/titanic/keras_model_weight.h5')
 # evaluation = model.evaluate(x=to_test, y=ans_test)
 # print("Loss2: {loss}  Accuracy2: {acc}".format(loss=evaluation[0], acc=evaluation[1]))
 #
 #
 # '''2. (Recommend!)Save in a TF2-way'''
 # # # Save model weights only
-# # model.save_weights(r'titanic\tf_model_weights.ckpt', save_format="tf")
+# # model.save_weights('./datasets/titanic/tf_model_weights.ckpt', save_format="tf")
 #
 # # Save the whole model
-# model.save(r'titanic\tf_model_savedmodel', save_format="tf")
+# model.save('./datasets/titanic/tf_model_savedmodel', save_format="tf")
 #
 # # Restore the model
-# model_loaded = models.load_model(r'titanic\tf_model_savedmodel')
+# model_loaded = models.load_model('./datasets/titanic/tf_model_savedmodel')
 # evaluation = model.evaluate(x=to_test, y=ans_test)
 # print("Loss3: {loss}  Accuracy3: {acc}".format(loss=evaluation[0], acc=evaluation[1]))
 
